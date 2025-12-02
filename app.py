@@ -29,7 +29,7 @@ a:hover { color: #ffffff; text-decoration: underline; }
 <title>Поиск по Notion</title>
 <h2>🔍 Поиск по Notion</h2>
 <form method="post">
-  <input type="text" name="query" placeholder="Джон Сноу, Старки..." autofocus required>
+  <input type="text" name="query" placeholder="Введите свой запрос..." autofocus required>
   <input type="submit" value="Искать">
 </form>
 {% if results %}
